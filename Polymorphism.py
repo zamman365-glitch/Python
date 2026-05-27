@@ -63,3 +63,4 @@ overriding
 
                                     # overloading
 # python mei overloading nhi hoti hai
+# method overloading is a concept where you define similar name methods inside a single class with different parameters
