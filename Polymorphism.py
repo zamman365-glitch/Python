@@ -4,7 +4,8 @@
 def Hello():
     print("hello again")"""
 
-
+"""
+# attributes or methods ke beach mei hota hai 
 class Animal:
     def speak(self):
         print("animals are shouting")
@@ -17,7 +18,7 @@ obj1=Animal()
 obj2=Human()
 
 obj1.speak()
-obj2.human()
+obj2.human()"""
 # both the speaks method appears to be same but both have different task and this is known polymorphism
 
 
@@ -63,3 +64,4 @@ overriding
 
                                     # overloading
 # python mei overloading nhi hoti hai
+# method overloading is a concept where you define similar name methods inside a single class with different parameters
