@@ -65,3 +65,15 @@ overriding
                                     # overloading
 # python mei overloading nhi hoti hai
 # method overloading is a concept where you define similar name methods inside a single class with different parameters
+
+
+class Animal:
+    def hello():
+        pass
+    def hello(a,b):
+        pass
+
+obj=Animal()
+obj.hello(12,45)
+# dono cheezen dene padenge akela ek nhi de payenge
+# same name methods inside a single class but with different parameters this thing is knowns as method overloading it is not available in python
