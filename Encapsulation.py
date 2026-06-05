@@ -1,4 +1,9 @@
-                       # public 
+                                # Encapsulation
+
+#Protection the attribute and methods is known as Encapsulation
+
+
+                                # public 
 class Animal:
     name="Lion"   # public Attributes
     def speaks(self):  # public object method 
@@ -7,7 +12,7 @@ class Animal:
 obj1=Animal()
 obj1.speaks()
 
-                        # protected
+                            # protected
 class Animal:
     name="Lion"   # public Attribute
     _age=12     # protected attribute
@@ -25,7 +30,7 @@ obj1.speaks()
 
 
 
-                       # private
+                           # private
 class Animal:
     name="Lion"   # public Attribute
     _age=12     # protected attribute
